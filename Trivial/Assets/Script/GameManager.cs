@@ -4,26 +4,6 @@ using UnityEngine;
 using UnityEngine.Networking;
 using System;
 
-/*
-[Serializable]
-public class Pregunta {
-    
-    public string category;
-    public string type;
-    public string difficulty;
-    public string question;
-    public string correct_answer;
-    public List<string> incorrect_answers;
-}
-
-[Serializable]
-public class Preguntas {
-
-    public int response_code;
-    public List<Pregunta> results;
-}
-*/
-
 public class GameManager : MonoBehaviour {
 
     public Preguntas preguntas;
